@@ -43,7 +43,6 @@
     H         Topmost line in the screen
     L         Middle of screen
     M         Bottommost line in the screen
-    zz        Center cursor on the screen
     
     0         Beginning of line
     $         End of line
