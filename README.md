@@ -114,6 +114,7 @@
               Open a file in a new buffer and split window
     :vsp <file>
               Open a file in a new buffer and vertically split window
+              
     <CTRL-ws> Split window
     <CTRL-ww> Switch windows
     <CTRL-wq> Quit a window
