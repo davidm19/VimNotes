@@ -126,7 +126,24 @@
     <CTRL-wk> Move cursor to the window above (horizontal split)
 ```
 
+### GIT FUNCTIONALITY (requires tpope's git-fugitive plugin)
+```
+    :Gwrite   Stage the current file to the index
+    :Gremove  Delete the current file and the corresponding Vim buffer
+    :Gcommit  Write a commit message for the file
+    :Gpush    Push the changes
+    :Gdiff    Diff-check the file
+    :Glog     Load all previous revisions of the current file into the quickfix list
+    :Glog --  ad all ancestral commit objects into the quickfix list
+    :Gstatus  Run git status
+       (Commands inside :Gstatus)
+        -     Add file
+        C     Commit file
+        <Enter>
+              Open file in the window below
+```
+
 -------------------------------------------------------------------------------
 # WE'RE DONE!
 Vim is Copyright (c) 1988-2003 Bram Moolenaar.
-These notes were taken by davidm19 based on the built-in Vimtutor as well as [this online cheat sheet](https://vim.rtorr.com/).
+These notes were taken by davidm19 based on the built-in Vimtutor as well as [this online cheat sheet](https://vim.rtorr.com/) and [the vimcasts guide to Fugitive.vim](http://vimcasts.org/episodes/fugitive-vim---a-complement-to-command-line-git/).
