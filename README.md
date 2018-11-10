@@ -7,6 +7,7 @@
     v         Visual mode
     V         Visual Line mode (highlight entire lines)
     <CTRL-V>  Visual Block mode (highlight columns as opposed to rows)
+    R         Replace mode
 ```
 
 ### COMMANDS:
