@@ -129,4 +129,4 @@
 -------------------------------------------------------------------------------
 # WE'RE DONE!
 Vim is Copyright (c) 1988-2003 Bram Moolenaar.
-These notes were taken by davidm19 based on the built-in Vimtutor as well as [this online cheat sheet](https://vim.rtorr.com/) and [the vimcasts guide to Fugitive.vim](http://vimcasts.org/episodes/fugitive-vim---a-complement-to-command-line-git/).
+These notes were taken by davidm19 based on the built-in Vimtutor as well as [this online cheat sheet](https://vim.rtorr.com/).
