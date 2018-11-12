@@ -91,6 +91,8 @@
              Search for pattern in the opposite direction
     n        Cycle through iterations of pattern forwards
     N        Cycle through iterations of pattern backwards
+    
+    :noh     Remove searching highlighting
 ```
 
 ### VISUAL MODE:
