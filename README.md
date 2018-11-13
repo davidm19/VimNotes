@@ -129,6 +129,12 @@
     <CTRL-wk> Move cursor to the window above (horizontal split)
 ```
 
+### VIMDIFF:
+```
+    vimdiff <file1> <file2>
+              Find the differences between two files
+```
+
 -------------------------------------------------------------------------------
 # WE'RE DONE!
 Vim is Copyright (c) 1988-2003 Bram Moolenaar.
