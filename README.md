@@ -92,6 +92,17 @@
     n        Cycle through iterations of pattern forwards
     N        Cycle through iterations of pattern backwards
     
+    :s/foo/bar/g
+             Change each 'foo' to 'bar' in the current line
+    :%s/foo/bar/g
+             Change each 'foo' to 'bar' in all the lines
+    :5,12s/foo/bar/g
+             Change each 'foo' to 'bar' for all lines from line 5 to line 12 (inclusive)
+    :.,+2s/foo/bar/g
+             Change each 'foo' to 'bar' for the current line (.) and the two next lines (+2)
+    :%s/\<foo\>/bar/gc
+             Change only whole words exactly matching 'foo' to 'bar'; ask for confirmation
+    
     :noh     Remove searching highlighting
 ```
 
