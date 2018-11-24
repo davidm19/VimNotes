@@ -118,18 +118,34 @@
     d         Delete marked text
 ```
 
-### BUFFER CONTROL:
+### BUFFERS, TABS, AND WINDOWS:
 ```
+    BUFFERS:
     :e <file> Edit a file in a new buffer
     :bn       Go to the next buffer
     :bp       Go to the previous buffer
     :bd       Delete a buffer (close a file)
     :ls       List all open buffers
+    
+    TABS:
+    :tabnew <file>
+              open a file in a new tab
+    Ctrl + wT move the current split window into its own tab
+    gt        move to the next tab
+    gT        move to the previous tab
+    <n>gt     move to tab number n
+    :tabmove <n>
+              move current tab to the #th position (indexed from 0)
+    :tabc     close the current tab and all its windows
+    :tabonly  close all tabs except for the current one
+    :tabdo <command>
+              run the command on all tabs (e.g. :tabdo q - closes all opened tabs)
+    
+    WINDOWS:
     :sp <file>
               Open a file in a new buffer and split window
     :vsp <file>
               Open a file in a new buffer and vertically split window
-              
     <CTRL-ws> Split window
     <CTRL-ww> Switch windows
     <CTRL-wq> Quit a window
