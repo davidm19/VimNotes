@@ -120,7 +120,7 @@
 
 ### BUFFERS, TABS, AND WINDOWS:
 ```
-    BUFFERS:
+    **BUFFERS:**
     :e <file> Edit a file in a new buffer
     :bn       Go to the next buffer
     :bp       Go to the previous buffer
