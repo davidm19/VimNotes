@@ -153,6 +153,15 @@
     ]c        Jump to the next diff
     [c        Jump to the previous diff
 ```
+-------------------------------------------------------------------------------
+### A QUICK NOTE ON WHEN USING BUFFERS, TABS, AND WINDOWS (adapted from [this StackOverflow answer](https://stackoverflow.com/questions/26708822/why-do-vim-experts-prefer-buffers-over-tabs):
+"Vim experts" (let's assume I can speak as if I was one) don't prefer buffers over tabs: they just use Vim as it was designed and are perfectly comfortable with that design:
+
+"Vim experts" have 2, 30 or 97 buffers loaded and are very happy they don't have to deal with spatial distribution;
+
+when they need to compare two files or work in one part of the current buffer while keeping another as a reference, "Vim experts" use windows because that's how they are meant to be used;
+
+when they need to work for a while on a separate part of the project without messing with their current view, "Vim experts" load a brand new tab page.
 
 -------------------------------------------------------------------------------
 # WE'RE DONE!
