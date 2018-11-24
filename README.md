@@ -118,6 +118,20 @@
     d         Delete marked text
 ```
 
+### VIMDIFF:
+```
+    vimdiff/vim -d <file1> <file2>
+              Find the differences between two files
+              
+    dp        diffput: puts changes under the cursor into the other file
+                        making them identical (thus removing the diff).
+    do        diffget: (o => obtain). The change under the cursor is replaced
+                        by the content of the other file making them identical.
+
+    ]c        Jump to the next diff
+    [c        Jump to the previous diff
+```
+
 ### BUFFERS, TABS, AND WINDOWS:
 ```
     BUFFERS:
@@ -156,20 +170,6 @@
     <CTRL-wk> Move cursor to the window above (horizontal split)
 ```
 
-### VIMDIFF:
-```
-    vimdiff/vim -d <file1> <file2>
-              Find the differences between two files
-              
-    dp        diffput: puts changes under the cursor into the other file
-                        making them identical (thus removing the diff).
-    do        diffget: (o => obtain). The change under the cursor is replaced
-                        by the content of the other file making them identical.
-
-    ]c        Jump to the next diff
-    [c        Jump to the previous diff
-```
--------------------------------------------------------------------------------
 ### A QUICK NOTE ON WHEN USING BUFFERS, TABS, AND WINDOWS (adapted from [this StackOverflow answer](https://stackoverflow.com/questions/26708822/why-do-vim-experts-prefer-buffers-over-tabs)):
 - "Vim experts" have 2, 30 or 97 **buffers** loaded and are very happy they don't have to deal with spatial distribution;
 - "Vim experts" use **windows** when they need to compare two files or work in one part of the current buffer while keeping another as a reference
