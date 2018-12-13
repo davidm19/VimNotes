@@ -118,7 +118,7 @@
     d         Delete marked text
 ```
 
-### VIMDIFF:
+### VIMDIFF/MERGETOOL:
 ```
     vimdiff/vim -d <file1> <file2>
               Find the differences between two files
@@ -130,6 +130,10 @@
 
     ]c        Jump to the next diff
     [c        Jump to the previous diff
+    
+    :diffg LO Merge files from LOCAL (the file from your current branch)
+    :diffg BA Merge files from BASE (current file from the previous commit)
+    :diffg RE Merge files from REMOTE (the file from the branch you're merging with)
 ```
 
 ### BUFFERS, TABS, AND WINDOWS:
