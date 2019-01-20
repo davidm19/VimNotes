@@ -136,7 +136,7 @@
     :diffg RE Merge files from REMOTE (the file from the branch you're merging with)
 ```
 
-### BUFFERS, TABS, AND WINDOWS:
+### BUFFERS, TABS, WINDOWS, AND SESSIONS:
 ```
     BUFFERS:
     :e <file> Edit a file in a new buffer
@@ -172,6 +172,12 @@
     <CTRL-wl> Move cursor to the right window (vertical split)
     <CTRL-wj> Move cursor to the window below (horizontal split)
     <CTRL-wk> Move cursor to the window above (horizontal split)
+    
+    SESSIONS (saving workflows and reloading them at later times; BE SURE YOU'RE SAVING YOU WORK!):
+    :mksession ~/current_session.vim
+              Creates a session (current workspace, location, and all that jazz) titled session.vim
+    :source ~/current_session.vim / vim -S ~/current_session.vim
+              Loads session.vim
 ```
 
 ### A QUICK NOTE ON WHEN USING BUFFERS, TABS, AND WINDOWS (adapted from [this StackOverflow answer](https://stackoverflow.com/questions/26708822/why-do-vim-experts-prefer-buffers-over-tabs)):
