@@ -173,7 +173,7 @@
     <CTRL-wj> Move cursor to the window below (horizontal split)
     <CTRL-wk> Move cursor to the window above (horizontal split)
     
-    SESSIONS (saving workflows and reloading them at later times; BE SURE YOU'RE SAVING YOU WORK!):
+    SESSIONS (saving workflows and reloading them at later times; BE SURE YOU'RE SAVING YOUR WORK!):
     :mksession ~/current_session.vim
               Creates a session (current workspace, location, and all that jazz) titled session.vim
     :source ~/current_session.vim / vim -S ~/current_session.vim
