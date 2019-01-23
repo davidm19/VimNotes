@@ -172,6 +172,10 @@
     <CTRL-wl> Move cursor to the right window (vertical split)
     <CTRL-wj> Move cursor to the window below (horizontal split)
     <CTRL-wk> Move cursor to the window above (horizontal split)
+    <CTRL-wH> Move window to the left
+    <CTRL-wL> Move window to the right
+    <CTRL-wJ> Move window to the window
+    <CTRL-wK> Move window to the window
     
     SESSIONS (saving workflows and reloading them at later times; BE SURE YOU'RE SAVING YOUR WORK!):
     :mksession ~/current_session.vim
