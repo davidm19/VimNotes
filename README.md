@@ -193,6 +193,7 @@
     :make %:r Compiles the current C/C++ file without a makefile
     
     FOR EVERYTHING ELSE: Just use :! (language command) to run it
+    You might even look here for a more in-depth guide on how to run code, I won't judge:     http://ajmccluskey.com/2015/01/executing-your-code-from-vim/
 ```
 
 ### A QUICK NOTE ON WHEN USING BUFFERS, TABS, AND WINDOWS (adapted from [this StackOverflow answer](https://stackoverflow.com/questions/26708822/why-do-vim-experts-prefer-buffers-over-tabs)):
