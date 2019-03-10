@@ -93,6 +93,8 @@
     N        Cycle through iterations of pattern backwards
     
     :s/foo/bar/g
+             Change the first instance of 'foo' to 'bar'
+    :s/foo/bar/g
              Change each 'foo' to 'bar' in the current line
     :%s/foo/bar/g
              Change each 'foo' to 'bar' in all the lines
@@ -182,6 +184,15 @@
               Creates a session (current workspace, location, and all that jazz) titled session.vim
     :source ~/current_session.vim / vim -S ~/current_session.vim
               Loads session.vim
+```
+
+### EXECUTING CODE (for those stubborn enough to not want to use the shell)
+```
+    C/C++ FILES
+    :make     Make the makefile
+    :make %:r Compiles the current C/C++ file without a makefile
+    
+    FOR EVERYTHING ELSE: Just use :! (language command) to run it
 ```
 
 ### A QUICK NOTE ON WHEN USING BUFFERS, TABS, AND WINDOWS (adapted from [this StackOverflow answer](https://stackoverflow.com/questions/26708822/why-do-vim-experts-prefer-buffers-over-tabs)):
