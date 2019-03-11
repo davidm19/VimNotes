@@ -149,6 +149,7 @@
     :bp       Go to the previous buffer
     :bd       Delete a buffer (close a file)
     :ls       List all open buffers
+    <CTRL-6>  Switch between current and previous buffer
     
     TABS:
     :tabnew <file>
