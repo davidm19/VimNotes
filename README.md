@@ -15,6 +15,11 @@
     :w        Write changes
     :q        Quit (when changes are written)
     :q!       Quit without saving
+    
+    :(FIRST LINE NUMBER),(SECOND LINE NUMBER)w FILENAME
+              Write out chosen lines to a separate file named FILENAME
+    :r FILENAME
+              Read in a file named FILENAME
 ```
 
 ### INSERTING TEXT:
