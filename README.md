@@ -86,6 +86,8 @@
     dd       Delete (cut) a line
     dw       Delete (cut) the characters of the word from the cursor position to the start of the next word
     d$       Delete to end of line
+    :g/PATTERN/d
+             Delete all lines containing any occurences of PATTERN
     
     <CTRL-x> INCREASE the value of the current NUMBER by 1
     <CTRL-x> DECREASE the value of the current NUMBER by 1
