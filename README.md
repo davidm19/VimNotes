@@ -212,7 +212,7 @@
     You might even look here for a more in-depth guide on how to run code, I won't judge:     http://ajmccluskey.com/2015/01/executing-your-code-from-vim/
 ```
 
-### BONUS ROUND! CMUS !!!FINISH ME!!!
+### BONUS ROUND! CMUS... !!!FINISH ME!!!
 ```
     q              Quit CMUS
     I              Print location of current song
@@ -272,6 +272,8 @@
     g, home        win-top
     k, up          win-up
 ```
+
+### ...AND RANGER !!!FINISH ME!!!
 
 -------------------------------------------------------------------------------
 # WE'RE DONE!
