@@ -197,6 +197,11 @@
               Loads session.vim
 ```
 
+### A QUICK NOTE ON WHEN USING BUFFERS, TABS, AND WINDOWS (adapted from [this StackOverflow answer](https://stackoverflow.com/questions/26708822/why-do-vim-experts-prefer-buffers-over-tabs)):
+- Usually you'll have 2, 30 or 97 **buffers** loaded at a time
+- Use **windows** when you need to compare two files or work in one part of the current buffer while keeping another as a reference
+- Load a brand new **tab page** when you need to work for a while on a separate part of the project without messing with your current view
+
 ### EXECUTING CODE (for those stubborn enough to not want to use the shell)
 ```
     C/C++ FILES
@@ -207,10 +212,66 @@
     You might even look here for a more in-depth guide on how to run code, I won't judge:     http://ajmccluskey.com/2015/01/executing-your-code-from-vim/
 ```
 
-### A QUICK NOTE ON WHEN USING BUFFERS, TABS, AND WINDOWS (adapted from [this StackOverflow answer](https://stackoverflow.com/questions/26708822/why-do-vim-experts-prefer-buffers-over-tabs)):
-- Usually you'll have 2, 30 or 97 **buffers** loaded at a time
-- Use **windows** when you need to compare two files or work in one part of the current buffer while keeping another as a reference
-- Load a brand new **tab page** when you need to work for a while on a separate part of the project without messing with your current view
+### BONUS ROUND! CMUS
+```
+    q              quit -i
+    ^C             echo Type :quit<enter> to exit cmus.
+    I              echo {}
+    b              player-next
+    c              player-pause
+    x              player-play
+    z              player-prev
+    v              player-stop
+    ^L             refresh
+    n              search-next
+    N              search-prev
+    .              seek +1m
+    l, right       seek +5
+    ,              seek -1m
+    h, left        seek -5
+    m              toggle aaa_mode
+    C              toggle continue
+    M              toggle play_library
+    o              toggle play_sorted
+    r              toggle repeat
+    ^R             toggle repeat_current
+    t              toggle show_remaining_time
+    s              toggle shuffle
+    F              push filter<space>
+    L              push live-filter<space>
+    u              update-cache
+    1              view tree
+    2              view sorted
+    3              view playlist
+    4              view queue
+    5              view browser
+    6              view filters
+    7              view settings
+    !              push shell<space>
+    ]              vol +0 +1
+    [              vol +1 +0
+    +, =           vol +10%
+    }              vol -0 -1
+    {              vol -1 -0
+    -              vol -10%
+    enter          win-activate
+    E              win-add-Q
+    a              win-add-l
+    y              win-add-p
+    e              win-add-q
+    G, end         win-bottom
+    down, j        win-down
+    p              win-mv-after
+    P              win-mv-before
+    tab            win-next
+    ^F, page_down  win-page-down
+    ^B, page_up    win-page-up
+    D, delete      win-remove
+    i              win-sel-cur
+    space          win-toggle
+    g, home        win-top
+    k, up          win-up
+```
 
 -------------------------------------------------------------------------------
 # WE'RE DONE!
