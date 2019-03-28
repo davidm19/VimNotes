@@ -212,26 +212,26 @@
     You might even look here for a more in-depth guide on how to run code, I won't judge:     http://ajmccluskey.com/2015/01/executing-your-code-from-vim/
 ```
 
-### BONUS ROUND! CMUS
+### BONUS ROUND! CMUS !!!FINISH ME!!!
 ```
-    q              quit -i
-    ^C             echo Type :quit<enter> to exit cmus.
-    I              echo {}
-    b              player-next
-    c              player-pause
-    x              player-play
-    z              player-prev
-    v              player-stop
-    ^L             refresh
-    n              search-next
-    N              search-prev
-    .              seek +1m
-    l, right       seek +5
-    ,              seek -1m
-    h, left        seek -5
+    q              Quit CMUS
+    I              Print location of current song
+    b              Next song
+    c              Pause current song
+    x              Play current song
+    z              Previous song
+    v              Stop song
+    ^L             Refresh
+    /              Search for songs containing a pattern
+    n              Next entry in search
+    N              Previous entry in search
+    .              Skip forwards in current song by a minute
+    l, right       Skip forwards in current song by 5 seconds
+    ,              Go backwards in current song by a minute
+    h, left        Go backwards in current song by 5 seconds
     m              toggle aaa_mode
-    C              toggle continue
-    M              toggle play_library
+    C              Toggle continuous play (when a song ends it's not followed by the next song)
+    M              Toggle between album and playlist
     o              toggle play_sorted
     r              toggle repeat
     ^R             toggle repeat_current
