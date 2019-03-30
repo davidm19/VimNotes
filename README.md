@@ -225,6 +225,7 @@
     /              Search for songs containing a pattern
     n              Next entry in search
     N              Previous entry in search
+    TAB            Move between artist/album windows and songs
     .              Skip forwards in current song by a minute
     l, right       Skip forwards in current song by 5 seconds
     ,              Go backwards in current song by a minute
@@ -233,27 +234,27 @@
     C              Toggle continuous play (when a song ends it's not followed by the next song)
     M              Toggle between album and playlist
     o              toggle play_sorted
-    r              toggle repeat
-    ^R             toggle repeat_current
-    t              toggle show_remaining_time
-    s              toggle shuffle
+    r              Toggle Repeat play
+    ^R             Toggle Repeat current song
+    t              Show remaining time
+    s              Toggle shuffle mode
     F              push filter<space>
     L              push live-filter<space>
-    u              update-cache
-    1              view tree
-    2              view sorted
-    3              view playlist
-    4              view queue
-    5              view browser
-    6              view filters
-    7              view settings
+    u              Update cache
+    1              View tree (albums/artists)
+    2              View sorted
+    3              View playlist
+    4              View queue
+    5              View browser
+    6              View filters
+    7              View settings
     !              push shell<space>
     ]              vol +0 +1
     [              vol +1 +0
-    +, =           vol +10%
+    +, =           Raise volume by 10%
     }              vol -0 -1
     {              vol -1 -0
-    -              vol -10%
+    -              Lower volume by 10%
     enter          win-activate
     E              win-add-Q
     a              win-add-l
