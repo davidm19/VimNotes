@@ -230,7 +230,7 @@
     l, right       Skip forwards in current song by 5 seconds
     ,              Go backwards in current song by a minute
     h, left        Go backwards in current song by 5 seconds
-    m              toggle aaa_mode
+    m              Toggle between all songs, only songs by current artist, and only songs in current album
     C              Toggle continuous play (when a song ends it's not followed by the next song)
     M              Toggle between album and playlist
     o              toggle play_sorted
@@ -255,7 +255,7 @@
     }              vol -0 -1
     {              vol -1 -0
     -              Lower volume by 10%
-    enter          win-activate
+    enter          Play selected song
     E              win-add-Q
     a              win-add-l
     y              win-add-p
@@ -264,7 +264,6 @@
     down, j        win-down
     p              win-mv-after
     P              win-mv-before
-    tab            win-next
     ^F, page_down  win-page-down
     ^B, page_up    win-page-up
     D, delete      win-remove
