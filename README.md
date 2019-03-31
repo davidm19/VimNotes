@@ -89,7 +89,7 @@
     :g/PATTERN/d
              Delete all lines containing any occurences of PATTERN
     
-    <CTRL-x> INCREASE the value of the current NUMBER by 1
+    <CTRL-a> INCREASE the value of the current NUMBER by 1
     <CTRL-x> DECREASE the value of the current NUMBER by 1
 ```
 
