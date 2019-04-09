@@ -102,6 +102,11 @@
     n        Cycle through iterations of pattern forwards
     N        Cycle through iterations of pattern backwards
     
+    *        Cycle through each line forwards where pattern occurs
+    #        Cycle through each line backwards where pattern occurs
+    
+    %        Cycle between alternating bracket pairs
+    
     :s/foo/bar/g
              Change the first instance of 'foo' to 'bar'
     :s/foo/bar/g
