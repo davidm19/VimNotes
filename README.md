@@ -217,7 +217,7 @@
     You might even look here for a more in-depth guide on how to run code, I won't judge:     http://ajmccluskey.com/2015/01/executing-your-code-from-vim/
 ```
 
-### BONUS ROUND! CMUS... !!!FINISH ME!!!
+### BONUS ROUND! CMUS...
 ```
     q              Quit CMUS
     I              Print location of current song
@@ -238,7 +238,7 @@
     m              Toggle between all songs, only songs by current artist, and only songs in current album
     C              Toggle continuous play (when a song ends it's not followed by the next song)
     M              Toggle between album and playlist
-    o              toggle play_sorted
+    o              Toggle play sorted
     r              Toggle Repeat play
     ^R             Toggle Repeat current song
     t              Show remaining time
@@ -254,31 +254,29 @@
     6              View filters
     7              View settings
     !              push shell<space>
-    ]              vol +0 +1
-    [              vol +1 +0
+    ]              vol +0 +1 (right speaker up 1%, left speaker stays same)
+    [              vol +1 +0 (left speaker up 1%, right speaker stays same)
     +, =           Raise volume by 10%
-    }              vol -0 -1
-    {              vol -1 -0
+    }              vol -0 -1 (right speaker down 1%, left speaker stays same)
+    {              vol -1 -0 (left speaker down 1%, right speaker stays same)
     -              Lower volume by 10%
     enter          Play selected song
-    E              win-add-Q
-    a              win-add-l
-    y              win-add-p
-    e              win-add-q
-    G, end         win-bottom
-    down, j        win-down
-    p              win-mv-after
-    P              win-mv-before
-    ^F, page_down  win-page-down
-    ^B, page_up    win-page-up
-    D, delete      win-remove
-    i              win-sel-cur
-    space          win-toggle
-    g, home        win-top
-    k, up          win-up
+    E              Add song to beginning of queue
+    a              Copy selected tracks to library
+    y              Copy selected tracks to playlist
+    e              Add song to end of queue
+    G, end         Go to end of screen
+    down, j        Go down
+    p              Move marked tracks to the position immediately after the selected track
+    P              Move marked tracks to the position immediately before the selected track
+    ^F, page_down  Page down
+    ^B, page_up    Page up
+    D, delete      Remove selected song from current view
+    i              Select current track/toggle hidden files
+    space          Toggle song/change (or show albums)
+    g, home        Go to top of screen
+    k, up          Go up
 ```
-
-### ...AND RANGER !!!FINISH ME!!!
 
 -------------------------------------------------------------------------------
 # WE'RE DONE!
