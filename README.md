@@ -234,6 +234,25 @@ Does a boy get a chance to paint white a fence every day? That put the thing in 
     You might even look here for a more in-depth guide on how to run code, I won't judge:     http://ajmccluskey.com/2015/01/executing-your-code-from-vim/
 ```
 
+### WRITING IN PLAINTEXT:
+```
+    :set spell     Turn on spellchecking
+    ]s             Jump to next mistake
+    [s             Jump to previous mistake
+    z=             See spelling suggestions for word under cursor
+    zg             Add current word to regular dictionary
+    zG             Add current word to the current session dictionary
+    zug            Remove current word to regular dictionary
+    zuG            Remove current word to the current session dictionary
+    :ab [ABBREVIATION] [EXPRESSION]
+                   Creates an abbreviation called ABBREVIATION which, when typed, will expand into EXPRESSION
+    <CTRL-V>       Cancel use of abbreviation
+    :una [ABBREVIATION]
+                   Remove abbreviation ABBREVIATION
+    :digraphs      List characters not present in current keyboard layout
+    <CTRL-k> [##]  Add character with code ## (two numbers)
+```
+
 ### BONUS ROUND! CMUS...
 ```
     q              Quit CMUS
