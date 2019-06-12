@@ -151,6 +151,10 @@ Does a boy get a chance to paint white a fence every day? That put the thing in 
     <         Shift text left
     y         Yank (copy) marked text
     d         Delete marked text
+    
+    zf        Fold marked text
+    zd        Unfold (delete fold) text
+    zE        Delete all folds in window
 ```
 
 ### VIMDIFF/MERGETOOL:
