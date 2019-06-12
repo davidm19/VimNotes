@@ -70,6 +70,7 @@
     R        Enter replace mode
     u        Undo
     <CTRL-r> Redo
+    J        Join current line with line below it
     cc       Change (replace) entire line
     c$       Change (replace) to the end of the line
     ciw      Change (replace) entire word
@@ -224,7 +225,7 @@ Does a boy get a chance to paint white a fence every day? That put the thing in 
 - Use **windows** when you need to compare two files or work in one part of the current buffer while keeping another as a reference
 - Load a brand new **tab page** when you need to work for a while on a separate part of the project without messing with your current view
 
-### EXECUTING CODE (for those stubborn enough to not want to use the shell)
+### EXECUTING CODE (for those stubborn enough to not want to use the shell or even tpope's vim-dispatch)
 ```
     C/C++ FILES
     :make     Make the makefile
