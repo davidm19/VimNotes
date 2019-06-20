@@ -249,6 +249,7 @@ Does a boy get a chance to paint white a fence every day? That put the thing in 
     zG             Add current word to the current session dictionary
     zug            Remove current word to regular dictionary
     zuG            Remove current word to the current session dictionary
+    ~              Change case of current letter (or group in visual mode)
     :ab [ABBREVIATION] [EXPRESSION]
                    Creates an abbreviation called ABBREVIATION which, when typed, will expand into EXPRESSION
     <CTRL-V>       Cancel use of abbreviation
