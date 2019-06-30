@@ -259,6 +259,21 @@ Does a boy get a chance to paint white a fence every day? That put the thing in 
     <CTRL-k> [##]  Add character with code ## (two numbers)
 ```
 
+### COMPLETION:
+```
+    <CTRL-P> OR <CTRL-X><CTRL-N>
+                   Complete current word based on its presence in the rest of the file
+    <CTRL-X>]      Complete using tags file
+    <CTRL-X><CTRL-F>
+                   Complete current filename
+    <CTRL-X><CTRL-N><CTRL-X><CTRL-P>
+                   Complete a series words of in a sentence (if it's in the same file/context)
+    <CTRL-X><CTRL-L>
+                   Complete an entire line
+    <CTRL-X><CTRL-O>
+                   Omnicomplete
+```
+
 ### BONUS ROUND! CMUS...
 ```
     q              Quit CMUS
