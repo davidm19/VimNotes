@@ -214,8 +214,10 @@ Does a boy get a chance to paint white a fence every day? That put the thing in 
     <CTRL-wk> Move cursor to the window above (horizontal split)
     <CTRL-wH> Move window to the left
     <CTRL-wL> Move window to the right
-    <CTRL-wJ> Move window to the window
-    <CTRL-wK> Move window to the window
+    <CTRL-wJ> Move window down
+    <CTRL-wK> Move window upv
+    <CTRL-w>_ Open current split in full size
+    <CTRL-w>= Make all splits equal sizes
     
     SESSIONS (saving workflows and reloading them at later times; BE SURE YOU'RE SAVING YOUR WORK!):
     :mksession ~/current_session.vim
