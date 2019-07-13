@@ -273,7 +273,7 @@ Does a boy get a chance to paint white a fence every day? That put the thing in 
     <CTRL-X><CTRL-L>
                    Complete an entire line
     <CTRL-X><CTRL-O>
-                   Omnicomplete
+                   Omnicomplete (requires this command to be put in vimrc: set omnifunc=syntaxcomplete#Complete)
 ```
 
 ### BONUS ROUND! CMUS...
